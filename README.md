@@ -15,3 +15,7 @@ Website's clock from: [3tawi](https://github.com/3tawi/Music-Spectrum-Analyzer-1
 
 HUB75 Matrix: [mrfaptastic ESP32-HUB75](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA)
 
+WiFiManager: [tzapu](https://github.com/tzapu/WiFiManager)
+
+Time Library: [rop/ezTime](https://github.com/ropg/ezTime)
+
