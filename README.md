@@ -40,9 +40,9 @@ Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.c
 
 Once installed, it will create a WiFi access point called:
 
-SSID: NTPMorphingClock
+### SSID: NTPMorphingClock
 
-pass: 123456789
+### pass: 123456789
 
 Connect to NTPMorphingClock Access Point and enter the password, then connect it to your personal WiFi.
 
