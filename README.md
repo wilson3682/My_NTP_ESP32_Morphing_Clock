@@ -39,5 +39,7 @@ Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.c
 #### After flashing
 
 Once installed it, will create a WiFi access point:
+
 SSID: NTPMorphinClock
+
 pass: 123456789
