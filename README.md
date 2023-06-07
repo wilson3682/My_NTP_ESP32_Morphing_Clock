@@ -7,6 +7,8 @@ This Clock is a remix from [HariFun_166_Morphing_Clock ](https://github.com/hwig
 
 WebSite Page based on: [dragondaud/myClock](https://github.com/dragondaud/myClock)
 
-[witnessmenow](https://github.com/witnessmenow/WiFi-Tetris-Clock)
+WiFi Setting and ArduinoJson: [witnessmenow](https://github.com/witnessmenow/ESP32-Trinity)
 
 ## Libraries used:
+
+HUB75 Matrix: [mrfaptastic ESP32-HUB75](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA)
