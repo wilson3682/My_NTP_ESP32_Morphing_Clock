@@ -17,5 +17,6 @@ HUB75 Matrix: [mrfaptastic ESP32-HUB75](https://github.com/mrfaptastic/ESP32-HUB
 
 WiFiManager: [tzapu](https://github.com/tzapu/WiFiManager)
 
-Time Library: [rop/ezTime](https://github.com/ropg/ezTime)
+ezTime Library: [ropg/ezTime](https://github.com/ropg/ezTime)
 
+ArduinoJson: [bblanchon](https://github.com/bblanchon/ArduinoJson)
