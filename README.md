@@ -44,6 +44,6 @@ SSID: NTPMorphingClock
 
 pass: 123456789
 
-Connect to NTPMorphingClock Access Point and enter the password, and connect to your personal WiFi.
+Connect to NTPMorphingClock Access Point and enter the password, then connect it to your personal WiFi.
 
 Once connected, access the Webpage with the new ip address and change the settings accordingly.
