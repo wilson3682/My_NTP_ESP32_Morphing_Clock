@@ -13,10 +13,14 @@ Website's clock from: [3tawi](https://github.com/3tawi/Music-Spectrum-Analyzer-1
 
 ## Libraries used:
 
-HUB75 Matrix: [mrfaptastic ESP32-HUB75](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA)
+Arduino IDE 1.8.19: [Arduino IDE 1.8.19](https://www.arduino.cc/en/software)
 
-WiFiManager: [tzapu](https://github.com/tzapu/WiFiManager)
+HUB75 Matrix: [mrfaptastic/ESP32-HUB75-MatrixPanel-DMA](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-DMA)
+
+WiFiManager: [tzapu/WiFiManager](https://github.com/tzapu/WiFiManager)
 
 ezTime Library: [ropg/ezTime](https://github.com/ropg/ezTime)
 
-ArduinoJson: [bblanchon](https://github.com/bblanchon/ArduinoJson)
+ArduinoJson: [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+
+Adafruit GFX: [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library) an all dependancy libraries.
