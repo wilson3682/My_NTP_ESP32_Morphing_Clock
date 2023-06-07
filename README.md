@@ -23,6 +23,11 @@ ezTime Library: [ropg/ezTime](https://github.com/ropg/ezTime)
 
 ArduinoJson: [bblanchon/ArduinoJson 6.21.2](https://github.com/bblanchon/ArduinoJson)
 
-Adafruit GFX: [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library) and all of it;s dependancy libraries.
+Adafruit GFX: [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library) and all of it's dependancy libraries.
 
-##
+## Compatible Development Boards:
+
+#I'm working on my Own ESP32 Shield o Development Board, but the following are compatible with this project.
+
+ESP32-Trinity from witnessmenow: [ESP32-Trinity](https://github.com/witnessmenow/ESP32-Trinity)
+
