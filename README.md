@@ -1,5 +1,4 @@
 # My_NTP_ESP32_Morphing_Clock
-Link: https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/flash.html
 
 This Clock is a remix from [HariFun_166_Morphing_Clock ](https://github.com/hwiguna/HariFun_166_Morphing_Clock/tree/master) with some modifications, Including easy WiFi setup and a Website control to change the settings. Still a work in progress.
 
@@ -31,3 +30,10 @@ I'm working on my Own ESP32 Shield or Development Board, but the following are c
 
 ESP32-Trinity from witnessmenow: [ESP32-Trinity](https://github.com/witnessmenow/ESP32-Trinity)
 
+Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.com/product/rgb-matrix-panel-drive-interface-board-for-esp32-dma/)
+
+#### Web Flash Link
+
+[Web Flash Link](https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/flash.html/)
+
+#### After flashing
