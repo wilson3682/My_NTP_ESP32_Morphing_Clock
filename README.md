@@ -27,7 +27,7 @@ Adafruit GFX: [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library) a
 
 ## Compatible Development Boards:
 
-#I'm working on my Own ESP32 Shield o Development Board, but the following are compatible with this project.
+I'm working on my Own ESP32 Shield or Development Board, but the following are compatible with this project.
 
 ESP32-Trinity from witnessmenow: [ESP32-Trinity](https://github.com/witnessmenow/ESP32-Trinity)
 
