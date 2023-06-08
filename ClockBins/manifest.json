@@ -1,6 +1,6 @@
 {
-  "name": "NTP ESP32 Morphing Clock",   
-  "new_install_prompt_erase": true,
+  "name": "NTP ESP32 Morphing Clock",  
+  "new_install_skip_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32",
