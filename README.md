@@ -2,7 +2,7 @@
 
 This Clock is a remix from [HariFun_166_Morphing_Clock ](https://github.com/hwiguna/HariFun_166_Morphing_Clock/tree/master) with some modifications, Including easy WiFi setup and a Website control to change the settings. Still a work in progress.
 
-![Animated image showing Morphing Clock](https://github.com/wilson3682/My_NTP_ESP32_Morphing_Clock/blob/main/images/myClock.gif)
+![Animated image showing Morphing Clock](/images/myClock.gif)
 
 ## I have used code from the following sources:
 
@@ -51,3 +51,5 @@ Once installed, it will create a WiFi access point called:
 Connect to NTPMorphingClock Access Point and enter the password, then connect it to your personal WiFi.
 
 Once connected, access the Webpage with the new ip address and change the settings accordingly.
+
+![WebPage](/images/mainpage.png)
