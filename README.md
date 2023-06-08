@@ -28,6 +28,10 @@ ArduinoJson: [bblanchon/ArduinoJson 6.21.2](https://github.com/bblanchon/Arduino
 
 Adafruit GFX: [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library) and all of it's dependancy libraries.
 
+Lookup TimeZone from IP using: http://ip-api.com/ (no API key required).
+
+Get current weather data from https://openweathermap.org/api which requires an API key to use.
+
 ## Compatible Development Boards:
 
 I'm working on my Own ESP32 Shield or Development Board, but the following are compatible with this project.
