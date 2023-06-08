@@ -11,3 +11,7 @@ https://firmware.esphome.io/esphome-web/manifest.json
 https://arduinojson.org/v6/doc/upgrade/
 
 https://tchapi.github.io/Adafruit-GFX-Font-Customiser/
+
+https://github.com/KrisKasprzak/ESP32_WebPage
+
+https://www.youtube.com/watch?v=pL3dhGtmcMY
