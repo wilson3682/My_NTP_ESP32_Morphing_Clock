@@ -7,3 +7,5 @@ https://github.com/espressif/esp-launchpad
 https://www.rapidtables.com/convert/number/hex-to-decimal.html
 
 https://firmware.esphome.io/esphome-web/manifest.json
+
+https://arduinojson.org/v6/doc/upgrade/
