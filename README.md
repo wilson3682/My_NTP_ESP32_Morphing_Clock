@@ -4,7 +4,7 @@ This Clock is a remix from [HariFun_166_Morphing_Clock ](https://github.com/hwig
 
 ![Animated image showing Morphing Clock](/images/myClock.gif)
 
-## I have used code from the following sources:
+## Inpiration from the following sources:
 
 WebSite Page based on: [dragondaud/myClock](https://github.com/dragondaud/myClock)
 
