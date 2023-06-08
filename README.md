@@ -44,9 +44,6 @@ Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.c
 
 [Web Flash Link](https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/flash.html)
 
-
-[Web Flash Link 2](https://wilson3682.github.io/myProjects_Files/flash.html)
-
 ### After flashing
 
 Once installed, it will create a WiFi access point called:
