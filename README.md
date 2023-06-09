@@ -55,6 +55,10 @@ Once installed, it will create a WiFi access point called:
 Connect to the NTPMorphingClock Access Point and enter the password, then connect it to your personal WiFi.
 
 Once connected, access the Webpage with the new ip address and change the settings accordingly.
+###  Web access credentials:
+
+#### username: admin
+#### pass: 123456789
 
 ![WebPage](/images/mainpage.png)
 
