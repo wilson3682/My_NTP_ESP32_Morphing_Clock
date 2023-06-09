@@ -15,3 +15,5 @@ https://tchapi.github.io/Adafruit-GFX-Font-Customiser/
 https://github.com/KrisKasprzak/ESP32_WebPage
 
 https://www.youtube.com/watch?v=pL3dhGtmcMY
+
+[ESP Web Tools](https://unpkg.com/browse/esp-web-tools@9.3.0/)
