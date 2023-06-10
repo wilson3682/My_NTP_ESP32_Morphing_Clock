@@ -160,7 +160,7 @@
 <div class="container inst-button">
   <esp-web-install-button
     id="inst"
-    manifest="Default/MyClock.ino1/manifest.json"
+    manifest="Default/MyClock.ino/manifest.json"
   >
     <button class="btn" slot="activate">Install</button>
   </esp-web-install-button><br>
@@ -168,11 +168,11 @@
   <!-- add new builds here -->
   <select id="ver" class="btn" onchange="setManifest()">
     <optgroup label="Default">
-      <option data-manifest="Default/MyClock.ino1/manifest.json"        
+      <option data-manifest="ClockBins/Default/manifest.json"        
         >Default_1.0</option>
     </optgroup>
     <optgroup label="BlinkingColon">
-      <option data-manifest="bin-v2/release_0_13_3/manifest.json"        
+      <option data-manifest="ClockBins/BlinkingColon/manifest.json"        
         >BlinkingColon_1.0</option> 
     </optgroup>
   </select><br><br>
