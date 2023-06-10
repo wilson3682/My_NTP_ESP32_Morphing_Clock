@@ -172,8 +172,13 @@
                   var opt = sel.options[sel.selectedIndex];
                   var m = opt.dataset.manifest;
    
-                  document.getElementById('inst').setAttribute('manifest',m);                  
-	          document.getElementById('verstr').textContent = opt.text;
+                  //document.getElementById('inst').setAttribute('manifest',m);                  
+	          //document.getElementById('verstr').textContent = opt.text;
+			 
+	         var installButton = document.getElementById('inst');
+                 installButton.setAttribute('manifest', m);
+                 installButton.querySelector('button').textContent = 'INSTALL ' + opt.label;
+                 document.getElementById('verstr').textContent = opt.label; 			 
                  }
   
                  function checkSupported() {
