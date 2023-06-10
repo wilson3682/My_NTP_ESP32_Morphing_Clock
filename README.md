@@ -68,8 +68,8 @@ Once connected, access the Webpage with the new ip address and the following cre
 
 ![WebPage](/images/mainpage.png)
 
-##
+## Clock Modes
 
-![Animated image showing Morphing Clock](/images/BlinkingColon.gif)
+### Blinking Colon version: ![Animated image showing Morphing Clock](/images/BlinkingColon.gif)
 
-##
+## 
