@@ -70,6 +70,6 @@ Once connected, access the Webpage with the new ip address and the following cre
 
 ## Clock Modes
 
-#### Blinking Colon version.![Animated image showing Morphing Clock](/images/BlinkingColon.gif)
+#### Blinking Colon version. [BlinkingColon](/images/BlinkingColon.gif)
 
 ## 
