@@ -14,6 +14,8 @@ Website's clock from: [3tawi](https://github.com/3tawi/P4-Matrix-64x32-Esp32-DHT
 
 How to create this page: [Tutorial](https://github.com/witnessmenow/ESP-Web-Tools-Tutorial)
 
+Web Flash Page: [WLED-WebInstaller](https://github.com/Aircoookie/WLED-WebInstaller) 
+
 ## Libraries used:
 
 Arduino IDE 1.8.19: [Arduino IDE 1.8.19](https://www.arduino.cc/en/software)
