@@ -66,7 +66,7 @@ Once connected, access the Webpage with the new ip address and the following cre
 #### username: admin
 #### pass: 123456789
 
-![WebPage](/images/mainpage.png)
+#### WebPage. ![WebPage](/images/mainpage.png)
 
 ## Clock Modes
 
