@@ -158,10 +158,8 @@
 </ol><br><br>
 
 <div class="container inst-button">
-  <esp-web-install-button
-    id="inst"
-    manifest="ClockBins/Default/manifest.json"
-  >
+<script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script> 
+  <esp-web-install-button id="inst" manifest="ClockBins/Default/manifest.json">
     <button class="btn" slot="activate">Install</button>
   </esp-web-install-button><br>
 
@@ -187,7 +185,7 @@
     var sel = document.getElementById('ver');
     var opt = sel.options[sel.selectedIndex];
     var m = opt.dataset.manifest;
-    var me = opt.dataset.ethernet;
+   
     document.getElementById('inst').setAttribute('manifest',m);
     document.getElementById('verstr').textContent = opt.text;
   }
