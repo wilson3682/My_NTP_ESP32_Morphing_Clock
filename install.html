@@ -140,12 +140,11 @@
 		      
 			  
                      <div class="container inst-button">			   
-		        <script type="module" src="https://github.com/wilson3682/My_NTP_ESP32_Morphing_Clock/blob/main/installer/install-button.js?module"></script>
-		        <!-- <script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script> -->
-                        <!-- <esp-web-install-button id="inst" manifest="ClockBins/Default/manifest.json" install-supported=""><template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template> -->
+                         <script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script>     
+                         <!-- <esp-web-install-button id="inst" manifest="ClockBins/Default/manifest.json" install-supported=""><template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template> -->
                         <esp-web-install-button id="inst" manifest="ClockBins/BlinkingColon/manifest.json" install-supported=""><template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template>
 			<button class="btn" slot="activate">Install</button>
-                        </esp-web-install-button><br>
+			</esp-web-install-button><br>
 
                         <!-- add new builds here -->
                         <select id="ver" class="btn" onchange="setManifest()">
@@ -165,12 +164,12 @@
                   var sel = document.getElementById("ver").value;
 	          //let x = document.getElementById("mySelect").value;
 	          //var sel = selectObject.value;
-                  //var opt = sel.options[sel.selectedIndex];
-                  //var m = opt.dataset.manifest;
-		  var m = sel.manifest;
+                  var opt = sel.options[sel.selectedIndex];
+                  var m = opt.dataset.manifest;
+		  //var m = sel.manifest;
    
                   document.getElementById('inst').setAttribute('manifest',m);                  
-	          //document.getElementById('verstr').textContent = opt.text;
+	          document.getElementById('verstr').textContent = opt.text;
 			 
 	        // var installButton = document.getElementById('inst');
                  //installButton.setAttribute('manifest', m);
