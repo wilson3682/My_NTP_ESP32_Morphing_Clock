@@ -154,7 +154,7 @@
                         </esp-web-install-button><br>
 
                         <!-- add new builds here -->
-                        <select id="ver" class="btn" onchange="setManifest(this)">
+                        <select id="ver" class="btn" onchange="setManifest()">
                             <optgroup label="BlinkingColon">
                                <option data-manifest="ClockBins/BlinkingColon/manifest.json">BlinkingColon_1.0</option>
                             </optgroup>
@@ -168,8 +168,9 @@
 
                  <script>  
                  function setManifest(selectObject) {
-                  //var sel = document.getElementById('ver');
-	          var sel = selectObject.value;
+                  var sel = document.getElementById('ver').value;;
+	          //let x = document.getElementById("mySelect").value;
+	          //var sel = selectObject.value;
                   var opt = sel.options[sel.selectedIndex];
                   var m = opt.dataset.manifest;
    
