@@ -132,19 +132,18 @@
                       <li>Note: All data on your device will be DELETED!!!</li>
                       <li>Thanks for Installing MyClock and happy Clocking. lol!</li>
                       <li>WebPage Inspired by WLED WebInstaller.</li>
-                    </ol> 
-                    <br><br>
+                    </ol><br><br>
 			  
 		      
 			  
-                    <div class="container inst-button">
-			   <script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script>     
-                     <esp-web-install-button id="inst" manifest="ClockBins/Default/manifest.json" install-supported="">
-	            <template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template>
-	           </esp-web-install-button>   
-			   <br><br> 
-			  <script type="module" src="https://github.com/wilson3682/My_NTP_ESP32_Morphing_Clock/blob/main/installer/install-button.js?module"></script>
-			    <!-- <script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script> -->
+                     <div class="container inst-button">
+			<script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script>     
+                        <esp-web-install-button id="inst" manifest="ClockBins/Default/manifest.json" install-supported="">
+	                <template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template>
+	                </esp-web-install-button><br> 
+			   
+		        <script type="module" src="https://github.com/wilson3682/My_NTP_ESP32_Morphing_Clock/blob/main/installer/install-button.js?module"></script>
+		        <!-- <script type="module" src="https://unpkg.com/esp-web-tools@9.3.0/dist/web/install-button.js?module"></script> -->
                         <esp-web-install-button id="inst" manifest="ClockBins/Default/manifest.json" install-supported="">
 			<template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template>
                         <button class="btn" slot="activate">Install</button>
@@ -158,8 +157,7 @@
                             <optgroup label="BlinkingColon">
                                <option data-manifest="ClockBins/BlinkingColon/manifest.json">BlinkingColon_1.0</option> 
                             </optgroup>
-                        </select>   
-                      <br><br>
+                        </select><br><br>
                     </div>
 
                   </div>
@@ -170,8 +168,7 @@
                   var opt = sel.options[sel.selectedIndex];
                   var m = opt.dataset.manifest;
    
-                  document.getElementById('inst').setAttribute('manifest',m);
-                  //document.getElementById('verstr').textContent = opt.text;
+                  document.getElementById('inst').setAttribute('manifest',m);                  
 	          document.getElementById('verstr').textContent = opt.text;
                  }
   
