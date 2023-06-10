@@ -69,3 +69,7 @@ Once connected, access the Webpage with the new ip address and the following cre
 ![WebPage](/images/mainpage.png)
 
 ##
+
+![Animated image showing Morphing Clock](/images/BlinkingColon.gif)
+
+##
