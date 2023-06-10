@@ -154,12 +154,13 @@
   <li id="coms">Select the desired version and Hit "Install" then select the correct COM port. <a onclick="showSerialHelp()">No device found?</a></li>
   <li>Note: All data on your device will be DELETED!!!</li>
   <li>Thanks for Installing MyClock and happy Clocking. lol!</li>
+  <li>WebPage Inspired by WLED WebInstaller page</li>
 </ol><br><br>
 
 <div class="container inst-button">
   <esp-web-install-button
     id="inst"
-    manifest="bin-v2/dev/manifest.json"
+    manifest="Default/MyClock.ino1/manifest.json"
   >
     <button class="btn" slot="activate">Install</button>
   </esp-web-install-button><br>
@@ -179,7 +180,7 @@
 
 </div>
 <br>Powered by <a href="https://esphome.github.io/esp-web-tools/" target="_blank">ESP Web Tools</a><br>
-<br><a href="https://github.com/Aircoookie/WLED" target="_blank">GitHub</a>&emsp;<a href="https://kno.wled.ge" target="_blank">kno.wled.ge</a>
+<br>&emsp;<a href="https://github.com/Aircoookie/WLED-WebInstaller" target="_blank">GitHub WLED WebInstaller</a>
 
 <script>  
   function setManifest() {
