@@ -112,7 +112,7 @@
     </style>
         <head>
          <title>Install WLED</title> 
-         <script type="module" src="https://github.com/wilson3682/My_NTP_ESP32_Morphing_Clock/tree/main/installer/install-button.js"></script>
+         
             <div class="navbar fixed-top">
               <!-- <h1 class: NTP ESP32 Morphing Clock</h1> -->
               <div class="navtitle">NTP ESP32 Morphing Clock</div>
@@ -136,6 +136,7 @@
                     </ol> 
                     <br><br>
                     <div class="container inst-button">
+			    <script type="module" src="https://github.com/wilson3682/My_NTP_ESP32_Morphing_Clock/tree/main/installer/install-button.js"?module></script>
                         <esp-web-install-button id="inst" manifest="ClockBins/BlinkingColon/manifest.json" install-supported=""><template shadowrootmode="open"><slot name="activate"><button>INSTALL</button></slot></template>
                         <button class="btn" slot="activate">Install</button>
                         </esp-web-install-button><br>
