@@ -171,8 +171,9 @@
                   var sel = document.getElementById('ver').value;
 	          //let x = document.getElementById("mySelect").value;
 	          //var sel = selectObject.value;
-                  var opt = sel.options[sel.selectedIndex];
-                  var m = opt.dataset.manifest;
+                  //var opt = sel.options[sel.selectedIndex];
+                 // var m = opt.dataset.manifest;
+		  var m = sel.manifest;
    
                   document.getElementById('inst').setAttribute('manifest',m);                  
 	          document.getElementById('verstr').textContent = opt.text;
