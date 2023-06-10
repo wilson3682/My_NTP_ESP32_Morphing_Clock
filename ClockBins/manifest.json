@@ -1,5 +1,5 @@
 {
-  "name": "NTP ESP32 Morphing Clock",  
+  "name": "Default",  
   "new_install_skip_erase": false,
   "builds": [
     {
