@@ -21,3 +21,4 @@ https://www.youtube.com/watch?v=pL3dhGtmcMY
 ### [WLED WebInstaller](https://github.com/Aircoookie/WLED-WebInstaller)
 ### [Github Markdowns Examples](https://github.github.com/gfm/)
 ### [EmojiPedia](https://emojipedia.org/sun-with-face/)
+### [Emoji Unicode Reference](https://www.w3schools.com/charsets/ref_emoji.asp)
