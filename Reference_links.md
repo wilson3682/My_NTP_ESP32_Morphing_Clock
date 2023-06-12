@@ -22,3 +22,4 @@ https://www.youtube.com/watch?v=pL3dhGtmcMY
 ### [Github Markdowns Examples](https://github.github.com/gfm/)
 ### [EmojiPedia](https://emojipedia.org/sun-with-face/)
 ### [Emoji Unicode Reference](https://www.w3schools.com/charsets/ref_emoji.asp)
+### [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
