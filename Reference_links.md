@@ -20,3 +20,4 @@ https://www.youtube.com/watch?v=pL3dhGtmcMY
 ### [ESP32-Trintiy-Web-Flash](https://github.com/witnessmenow/ESP32-Trintiy-Web-Flash)
 ### [WLED WebInstaller](https://github.com/Aircoookie/WLED-WebInstaller)
 ### [Github Markdowns Examples](https://github.github.com/gfm/)
+### [EmojiPedia](https://emojipedia.org/sun-with-face/)
