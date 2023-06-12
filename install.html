@@ -4,20 +4,19 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
-	<meta content="width=device-width" name="viewport">
+  <meta content="width=device-width" name="viewport">
   <meta name="theme-color" content="#222222">
 
-	<title>Install myClock</title>
+  <title>Install myClock</title>
   
-	<style>
-		body {
-			font-family: Verdana, Helvetica, sans-serif;
-			text-align: center;
-			background-color: #222;
-			margin: 0;
+  <style>
+    body {
+      font-family: Verdana, Helvetica, sans-serif;
+      text-align: center;
+      background-color: #222;
+      margin: 0;
       color: #fff;
-		}
-    
+    }    
     select {
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -37,7 +36,11 @@
       background-color: var(--c-3);
       color: var(--c-f);
     }
-    
+    .top-right {
+      position: absolute;
+      top: 42px;
+      right: 10px;
+    }    
     .btn {
       outline: none;
       cursor: pointer;
@@ -50,8 +53,7 @@
       color: white;
       border: 0px solid white;
       border-radius: 25px;
-    }
-    
+    }    
     img {
       width: 770px;
       max-width: 80%;
@@ -59,38 +61,31 @@
       image-rendering: crisp-edges;
       margin: 3vh 0 5px 0;
       animation: fi 1s;
-    }
-    
+    }    
     @keyframes fi {
     from { opacity: 0; }
     to   { opacity: 1; }
-    }
-    
+    }    
     .main {
       animation: fi 1.5s .7s both;
-    }
-    
+    }    
     a {
       color: #fff;
       cursor: pointer;
       text-decoration: underline;
-    }
-    
+    }    
     ol {
       margin: auto;
       text-align: left;
       display: inline-block;
-    }
-    
+    }    
     li::marker {
       text-decoration: bold;
       color: #09f;
-    }
-    
+    }    
     li {
       margin: 5px;
-    }
-    
+    }    
     .container {
       width: 80%;
       max-width: 510px;
@@ -99,12 +94,10 @@
       box-sizing: border-box;
       background-color: #222;
       overflow: hidden;
-    }
-    
+    }    
     .inst-button {
       padding: 5px 0;
     }
-
     @media (prefers-color-scheme: dark) {
       ewt-install-dialog {
         /*--mdc-theme-primary: #ffa000; /*buttons*/
@@ -114,14 +107,14 @@
         --mdc-text-field-fill-color: #ddd;
       }
     }
-         .fixed-top {
+    .fixed-top {
       position: fixed;
       top: 0;
       right: 0;
       left: 0;
       z-index: 1030;
-     }
-     .navtitle {
+    }
+    .navtitle {
      font-size: 24px;
      position: center;   
      height: 50px;
@@ -129,20 +122,24 @@
      font-weight: bold;
      line-height: 50px;   
      color: #09f;
-     } 
-	</style>
+    } 
+  </style>
+    
+     <div class="top-right">
+      <label for="theme-color-picker">Color Theme:&#127774</label>
+      <input type="color" id="theme-color-picker" class="form-input" value="#fff000">
+      <button id="reset-button">Reset Theme</button>
+    </div> 
         <head>
-             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	    <meta content="width=device-width" name="viewport">
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta content="width=device-width" name="viewport">
             <meta name="theme-color" content="#222222">
             <title>Install WLED</title>          
             <div class="navbar fixed-top">
-              <!-- <h1 class: NTP ESP32 Morphing Clock</h1> -->
-              <div class="navtitle">NTP ESP32 Morphing Clock</div>
+            <!-- <h1 class: NTP ESP32 Morphing Clock</h1> -->
+            <div class="navtitle">NTP ESP32 Morphing Clock</div>
             </div>
         </head>
-
-
 <body onload="checkSupported()">
 
 <main class="main" style="margin-top:70px">
@@ -180,37 +177,70 @@
 </div>
 </div>
 </main>
-<script>  
-  function setManifest() {
-    var sel = document.getElementById('ver');
-    var opt = sel.options[sel.selectedIndex];
-    var m = opt.dataset.manifest;
+<script> 
+      var initialBackgroundColor = "#222";
+      var initialTextColor = "#fff";
 
-    document.getElementById('inst').setAttribute('manifest',m);
-    document.getElementById('verstr').textContent = opt.text;
-  }
+      // Event listener for the color picker
+      document.getElementById("theme-color-picker").addEventListener("input", function() {
+        var selectedColor = this.value;
+
+        // Set the body background color to the selected color
+        document.body.style.backgroundColor = selectedColor;
+
+        // Update the text color based on the background color
+        var textColor = getContrastColor(selectedColor);
+        document.body.style.color = textColor;
+      });
+
+      // Event listener for the reset button
+      document.getElementById("reset-button").addEventListener("click", function() {
+        // Reset the body background color and text color to the initial values
+        document.body.style.backgroundColor = initialBackgroundColor;
+        document.body.style.color = initialTextColor;
+
+      });
+
+      // Function to calculate the contrast color based on the background color
+      function getContrastColor(color) {
+        var r = parseInt(color.substr(1, 2), 16);
+        var g = parseInt(color.substr(3, 2), 16);
+        var b = parseInt(color.substr(5, 2), 16);
+
+        // Calculate the relative luminance of the color
+        var luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+
+        // Return white or black based on the luminance
+        return luminance > 0.5 ? "#000" : "#fff";
+      }
+      function setManifest() {
+      var sel = document.getElementById('ver');
+      var opt = sel.options[sel.selectedIndex];
+      var m = opt.dataset.manifest;
+      document.getElementById('inst').setAttribute('manifest',m);
+      document.getElementById('verstr').textContent = opt.text;
+     }
   
-  function checkSupported() {
-    if (document.getElementById('inst').hasAttribute('install-unsupported')) unsupported();
-    else setManifest();
-  }
+     function checkSupported() {
+      if (document.getElementById('inst').hasAttribute('install-unsupported')) unsupported();
+      else setManifest();
+    }
   
-  function unsupported() {
-    document.getElementById('flasher').innerHTML = "Sorry, your browser is not yet supported!<br>Please try on Desktop Chrome or Edge.<br>"
-  }
+    function unsupported() {
+     document.getElementById('flasher').innerHTML = "Sorry, your browser is not yet supported!<br>Please try on Desktop Chrome or Edge.<br>"
+    }
   
-  function showSerialHelp() {
-    document.getElementById('coms').innerHTML = `Hit "Install" and select the correct COM port.<br><br>
-    You might be missing the drivers for your board.<br>
-    Here are drivers for chips commonly used in ESP boards:<br>
-    <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers" target="_blank">CP2102 (square chip)</a><br>
-    <a href="https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers" target="_blank">CH34x (rectangular chip)</a><br><br>
-    Make sure your USB cable supports data transfer.<br><br>`;
-  }
+    function showSerialHelp() {
+     document.getElementById('coms').innerHTML = `Hit "Install" and select the correct COM port.<br><br>
+     You might be missing the drivers for your board.<br>
+     Here are drivers for chips commonly used in ESP boards:<br>
+     <a href="https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers" target="_blank">CP2102 (square chip)</a><br>
+     <a href="https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers" target="_blank">CH34x (rectangular chip)</a><br><br>
+     Make sure your USB cable supports data transfer.<br><br>`;
+    }
 </script>
  <footer class="container" style="margin-bottom:70px">
  <p><br>Powered by <a href="https://esphome.github.io/esp-web-tools/" target="_blank">ESP Web Tools</a><br>Inspired by <a href="https://github.com/Aircoookie/WLED-WebInstaller" target="_blank">GitHub WLED WebInstaller</a></p>
  </footer>
-
 </body>
 </html>
