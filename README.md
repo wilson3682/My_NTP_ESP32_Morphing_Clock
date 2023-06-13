@@ -72,4 +72,6 @@ Once connected, access the Webpage with the new ip address and the following cre
 
 #### Blinking Colon version. ![BlinkingColon](/images/BlinkingColon.gif)
 
+#### New Version. Smaller second digits and showing AM or PM [BlinkingColonNew](/images/BlinkingColonNew.gif)
+
 ## 
