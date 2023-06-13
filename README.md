@@ -70,8 +70,10 @@ Once connected, access the Webpage with the new ip address and the following cre
 
 ## Clock Modes
 
-#### Blinking Colon version. ![BlinkingColon](/images/BlinkingColon.gif)
+#### Blinking Colon version. 
+![BlinkingColon](/images/BlinkingColon.gif)
 
-#### New Version. Smaller second digits and showing AM or PM ![BlinkingColonNew](/images/BlinkingColonNew.gif)
+#### New Version. Smaller second digits and showing AM or PM 
+![BlinkingColonNew](/images/BlinkingColonNew.gif)
 
 ## 
