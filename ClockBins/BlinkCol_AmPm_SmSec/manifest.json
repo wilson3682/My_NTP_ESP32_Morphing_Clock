@@ -1,0 +1,16 @@
+{
+  "name": "BlinkCol_AmPm_SmSec",  
+  "new_install_skip_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "BlinkCol_AmPm_SmSec.bootloader.bin", "offset": 4096 },
+        { "path": "BlinkCol_AmPm_SmSec.partitions.bin", "offset": 32768 },
+        { "path": "boot_app0.bin", "offset": 57344 },
+        { "path": "BlinkCol_AmPm_SmSec.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
