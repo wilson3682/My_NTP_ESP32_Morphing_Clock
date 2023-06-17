@@ -24,3 +24,4 @@ https://www.youtube.com/watch?v=pL3dhGtmcMY
 ### [Emoji Unicode Reference](https://www.w3schools.com/charsets/ref_emoji.asp)
 ### [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 ### [OLED Clock](https://github.com/awende/OLED_Clock/tree/master) [MyForked](https://github.com/wilson3682/OLED_Clock/blob/master/README.md)
+### [TimeZones List](https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv)
