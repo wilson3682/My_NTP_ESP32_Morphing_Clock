@@ -74,6 +74,9 @@ Once connected, access the Webpage with the new ip address and the following cre
 ![BlinkingColon](/images/BlinkingColon.gif)
 
 #### New Version. Smaller second digits and showing AM or PM 
-![BlinkingColonNew](/images/BlinkingColonNew.gif)
+[BlinkingColonNew](/images/BlinkingColonNew.gif)
+
+#### Scrolling Text and Clock version
+https://www.youtube.com/watch?v=c6NNVw6Zwko
 
 ## 
