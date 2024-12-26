@@ -42,11 +42,11 @@ ESP32-Trinity from witnessmenow: [ESP32-Trinity](https://github.com/witnessmenow
 
 Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.com/product/rgb-matrix-panel-drive-interface-board-for-esp32-dma/)
 
-## Web Flash Link
+## Web Flash Installer
 
 <!-- [Web Flash Link](https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/flash.html) -->
 
-[Web Flash WLED Style](https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/install.html)
+[Web Flash Installer - WLED Style](https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/install.html)
 
 ### After flashing
 
