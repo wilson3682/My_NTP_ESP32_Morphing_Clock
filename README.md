@@ -77,6 +77,6 @@ Once connected, access the Webpage with the new ip address and the following cre
 [BlinkingColonNew](/images/BlinkingColonNew.gif)
 
 #### Scrolling Text and Clock version
-https://www.youtube.com/watch?v=c6NNVw6Zwko
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/c6NNVw6Zwko/0.jpg)](https://www.youtube.com/watch?v=c6NNVw6Zwko)
 
-## 
+##
