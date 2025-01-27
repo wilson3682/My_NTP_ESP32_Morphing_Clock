@@ -42,6 +42,9 @@ ESP32-Trinity from witnessmenow: [ESP32-Trinity](https://github.com/witnessmenow
 
 Electrodragon Board: [Interface Board for ESP32 DMA](https://www.electrodragon.com/product/rgb-matrix-panel-drive-interface-board-for-esp32-dma/)
 
+ESP32 Board used: [ESP32-DevKitC ](https://www.electrodragon.com/product/esp32-devkitc/)
+
+
 ## Web Flash Installer
 
 <!-- [Web Flash Link](https://wilson3682.github.io/My_NTP_ESP32_Morphing_Clock/flash.html) -->
